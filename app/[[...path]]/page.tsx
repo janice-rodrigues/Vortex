@@ -2,6 +2,12 @@ import { readFile } from 'node:fs/promises';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
+type LegacyPageProps = {
+  params: Promise<{
+    path?: string[];
+  }>;
+};
+
 function fileForPath(path?: string[]) {
   if (!path || path.length === 0) return 'index.html';
   const last = path[path.length - 1];
@@ -41,8 +47,9 @@ function normalizeAssetPaths(html: string) {
   return html;
 }
 
-export async function generateMetadata({ params }: { params: { path?: string[] } }): Promise<Metadata> {
-  const file = fileForPath(params.path);
+export async function generateMetadata({ params }: LegacyPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const file = fileForPath(resolvedParams.path);
   try {
     const html = await readFile(file, 'utf8');
     const title = extractTagText(html, 'title');
@@ -52,8 +59,9 @@ export async function generateMetadata({ params }: { params: { path?: string[] }
   }
 }
 
-export default async function LegacyPage({ params }: { params: { path?: string[] } }) {
-  const file = fileForPath(params.path);
+export default async function LegacyPage({ params }: LegacyPageProps) {
+  const resolvedParams = await params;
+  const file = fileForPath(resolvedParams.path);
   let html: string;
   try {
     html = await readFile(file, 'utf8');
