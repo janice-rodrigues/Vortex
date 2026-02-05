@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
@@ -8,12 +8,36 @@ type LegacyPageProps = {
   }>;
 };
 
+export const dynamic = 'force-static';
+export const dynamicParams = false;
+
 function fileForPath(path?: string[]) {
   if (!path || path.length === 0) return 'index.html';
   const last = path[path.length - 1];
   if (!last) return 'index.html';
   if (last.endsWith('.html')) return last;
   return `${last}.html`;
+}
+
+async function listHtmlPages() {
+  const entries = await readdir(process.cwd(), { withFileTypes: true });
+  return entries
+    .filter((e) => e.isFile())
+    .map((e) => e.name)
+    .filter((name) => name.endsWith('.html'))
+    .filter((name) => name !== 'index.template.html');
+}
+
+export async function generateStaticParams(): Promise<Array<{ path?: string[] }>> {
+  const pages = await listHtmlPages();
+  const params: Array<{ path?: string[] }> = [{ path: [] }]; // root -> index.html
+
+  for (const file of pages) {
+    if (file === 'index.html') continue;
+    params.push({ path: [file] }); // keep `.html` URLs working
+  }
+
+  return params;
 }
 
 function extractTagText(html: string, tag: string) {
