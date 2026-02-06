@@ -1,4 +1,4 @@
-import { readdir, rename, stat } from 'node:fs/promises';
+import { readdir, rename, stat, unlink } from 'node:fs/promises';
 import path from 'node:path';
 
 /**
@@ -19,7 +19,7 @@ async function existsDir(p) {
 }
 
 function shouldRename(fileName) {
-  return fileName.endsWith('.html.html') && fileName !== '404.html.html';
+  return fileName.endsWith('.html.html');
 }
 
 function targetName(fileName) {
@@ -39,6 +39,19 @@ for (const fileName of files) {
 
   const from = path.join(outDir, fileName);
   const to = path.join(outDir, targetName(fileName));
+
+  // Special case: if the project includes a `404.html` route, Next export may
+  // produce `out/404.html.html`. Static hosts typically look for `out/404.html`,
+  // so we normalize this and intentionally allow overwrite.
+  if (fileName === '404.html.html') {
+    try {
+      await unlink(to);
+    } catch {
+      // ok (file doesn't exist)
+    }
+    await rename(from, to);
+    continue;
+  }
 
   // Avoid overwriting if the target somehow exists.
   try {
