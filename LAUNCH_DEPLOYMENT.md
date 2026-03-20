@@ -80,6 +80,7 @@ The exact URL is shown in the Launch project's **Domains** section after each su
 
 ## Troubleshooting
 
+- **Build fails at "Creating an optimized production build":** ESLint or TypeScript errors often cause this. The project now has `eslint: { ignoreDuringBuilds: true }` in `next.config.mjs`. If it still fails, check the full error in the **Logs** tab and ensure all `NEXT_PUBLIC_*` env vars are set in Launch.
 - **Build fails:** Check the **Logs** tab for errors. Common issues: missing env vars, Node version mismatch
 - **Blank page / 404:** Ensure `NEXT_PUBLIC_*` env vars are set and you've published content in Contentstack
 - **Content not updating:** Publish in Contentstack, then trigger a **Redeploy** in Launch to rebuild with fresh content
