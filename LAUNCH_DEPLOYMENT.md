@@ -43,6 +43,7 @@ Add these in **Environment Variables** (Launch will use them at build time):
 | `NEXT_PUBLIC_CONTENTSTACK_API_KEY` | Your stack API key (e.g. `bltaddf972fe290f55d`) |
 | `NEXT_PUBLIC_CONTENTSTACK_DELIVERY_TOKEN` | Delivery token for the production environment |
 | `NEXT_PUBLIC_CONTENTSTACK_ENVIRONMENT` | Environment name (e.g. `main` or `production`) |
+| `NODE_OPTIONS` | `--max-old-space-size=2048` (increases memory for large builds) |
 
 **Optional:** If you use a different Contentstack region, add:
 - `NEXT_PUBLIC_CONTENTSTACK_REGION` (e.g. `eu` for EU)
@@ -52,10 +53,10 @@ Add these in **Environment Variables** (Launch will use them at build time):
 Launch auto-detects Next.js. Verify:
 
 - **Build Command:** `npm run build` (or `next build`)
-- **Output Directory:** `.next` (default for Next.js)
+- **Output Directory:** `./.next` (default for Next.js)
 - **Install Command:** `npm install`
 
-No changes needed if auto-detected.
+If the build fails at "Creating an optimized production build", add `NODE_OPTIONS=--max-old-space-size=2048` in Environment Variables to increase memory.
 
 ## Step 5: Deploy
 
