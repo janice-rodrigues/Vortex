@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-
-  // Contentstack Launch commonly hosts as static output.
-  // This makes `next build` emit a fully static site in `out/`.
-  output: 'export',
-  trailingSlash: false
+  trailingSlash: false,
+  // Required for Contentstack Launch on-demand cache revalidation
+  generateBuildId: async () => {
+    return process.env.CONTENTSTACK_LAUNCH_DEPLOYMENT_UID ?? 'vortex-build';
+  },
 };
 
 export default nextConfig;

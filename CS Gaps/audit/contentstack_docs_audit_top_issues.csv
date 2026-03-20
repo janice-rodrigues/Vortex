@@ -1,0 +1,201 @@
+score,url,status,section,has_canonical,has_meta_description,h1_count,has_code_block,has_steps_heading,has_troubleshooting_heading,nav_noise_hits,main_text_len_approx,title
+16,https://www.contentstack.com/docs/developers/create-releases/deploy-a-release,308,developers,False,False,0,False,False,False,0,0,
+9,https://www.contentstack.com/docs/search,200,search,False,False,1,False,False,False,7,411,
+8,https://www.contentstack.com/docs/developers/apis/analytics-api,200,developers,True,True,0,False,False,False,4,0,Analytics API | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/automation-hub-management-api,200,developers,True,True,0,False,False,False,4,0,Automate Management API | Documentation
+8,https://www.contentstack.com/docs/developers/apis/brand-kit-management-api,200,developers,True,True,0,False,False,False,4,0,Brand Kit Management API | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/content-delivery-api,200,developers,True,True,0,False,False,False,4,0,Content Delivery API Docs | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/content-management-api,200,developers,True,True,0,False,False,False,4,0,Content Management API Docs | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/generative-ai-api,200,developers,True,True,0,False,False,False,4,0,Generative AI API | Documentation
+8,https://www.contentstack.com/docs/developers/apis/graphql-content-delivery-api,200,developers,True,True,0,False,False,False,4,0,GraphQL Content Delivery API for Developers | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/image-delivery-api,200,developers,True,True,0,False,False,False,4,0,Image Delivery API Docs | APIs for image retrieval | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/knowledge-vault-api,200,developers,True,True,0,False,False,False,4,0,Knowledge Vault API | Documentation
+8,https://www.contentstack.com/docs/developers/apis/launch-api,200,developers,True,True,0,False,False,False,4,0,Launch API | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/personalize-edge-api,200,developers,True,True,0,False,False,False,4,0,Personalize Edge API | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/personalize-management-api,200,developers,True,True,0,False,False,False,4,0,Personalize Management API | Contentstack
+8,https://www.contentstack.com/docs/developers/apis/scim-api,200,developers,True,True,0,False,False,False,4,0,SCIM API Docs | Contentstack
+7,https://www.contentstack.com/docs/developers/developer-hub/introduction-to-contentstack-applications,200,developers,True,True,2,False,False,False,7,6354,Introduction to Contentstack Applications | Contentstack
+7,https://www.contentstack.com/docs/developers/set-up-stack/delete-a-stack,200,developers,True,True,2,False,False,False,7,2327,Delete a Stack | Contentstack
+7,https://www.contentstack.com/docs/faqs,200,faqs,True,True,0,False,False,False,7,0,FAQs | Contentstack
+5,https://www.contentstack.com/docs/developers,200,developers,True,True,1,False,False,False,7,0,Developer’s Guide | Contentstack
+5,https://www.contentstack.com/docs/developers/automation-hub-connectors/brand-kit,200,developers,True,True,1,False,False,False,7,0,Brand Kit Connector | Contentstack
+5,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-entries-actions,200,developers,True,True,1,False,False,False,7,0,Contentstack Management - Entries Actions | Contentstack
+5,https://www.contentstack.com/docs/developers/automation-hub-guides/automate-app,200,developers,True,True,1,False,False,False,7,0,Automate App | Contentstack
+5,https://www.contentstack.com/docs/developers/cli/changelog,200,developers,True,True,1,False,False,False,7,0,CLI Changelog | Contentstack
+5,https://www.contentstack.com/docs/developers/create-content-types/rich-text-editor,200,developers,True,True,1,False,False,False,7,0,Rich Text Editor (RTE) Field | Customized Rich Text Editor
+5,https://www.contentstack.com/docs/developers/developer-hub/oauth-scopes,200,developers,True,True,1,False,False,False,7,0,OAuth Scopes
+5,https://www.contentstack.com/docs/developers/how-to-guides/setting-up-a-translation-system-using-contentstack-webhooks-aws-lambda-and-smartling-human-translator,200,developers,True,True,1,False,False,False,7,0,Setting up a Translation System Using Contentstack | Contentstack
+5,https://www.contentstack.com/docs/developers/how-to-guides/setting-up-a-translation-system-using-contentstack-webhooks-aws-lambda-and-smartling-machine-translation,200,developers,True,True,1,False,False,False,7,0,"Setting up a Translation System Using Contentstack Webhooks, AWS Lambda, and Smartling Machine Translation | Contentstack"
+3,https://www.contentstack.com/docs/changelog,200,changelog,True,True,1,False,False,False,7,0,Product Changelog | Contentstack
+3,https://www.contentstack.com/docs/developers/architecture-diagrams/contentstack-powered-website-layered-architecture,200,developers,True,True,1,False,False,False,7,4212,Contentstack-powered Website - Layered Architecture
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors,200,developers,True,True,1,False,False,False,7,2522,Automate Connectors | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/algolia,200,developers,True,True,1,False,False,False,7,4555,Algolia | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/anthropic,200,developers,True,True,1,False,False,False,7,6568,Anthropic | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/aws-bedrock,200,developers,True,True,1,False,False,False,7,4329,AWS Bedrock | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/aws-s3,200,developers,True,True,1,False,False,False,7,5383,AWS S3 | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/azure-chatgpt,200,developers,True,True,1,False,False,False,7,8200,Azure ChatGPT | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/bigcommerce-trigger,200,developers,True,True,1,False,False,False,7,3009,BigCommerce Trigger | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/box-action,200,developers,True,True,1,False,False,False,7,2778,Box Action | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/box-trigger,200,developers,True,True,1,False,False,False,7,2776,Box Trigger | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/chatgpt,200,developers,True,True,1,False,False,False,7,19149,ChatGPT | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/cloudinary,200,developers,True,True,1,False,False,False,7,2653,Cloudinary
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/constructor,200,developers,True,True,1,False,False,False,7,5756,Constructor
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management,200,developers,True,True,1,False,False,False,7,7217,Contentstack Management | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-assets-actions,200,developers,True,True,1,False,False,False,7,8275,Contentstack Management - Assets Actions | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-branch-alias-actions,200,developers,True,True,1,False,False,False,7,4732,Contentstack Management - Branch Alias Actions | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-branches-actions,200,developers,True,True,1,False,False,False,7,6838,Contentstack Management - Branches Actions | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-content-types-actions,200,developers,True,True,1,False,False,False,7,3808,Contentstack Management - Content Types Actions | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-global-fields-actions,200,developers,True,True,1,False,False,False,7,2964,Contentstack Management - Global Fields Actions | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-languages-actions,200,developers,True,True,1,False,False,False,7,2230,Contentstack Management - Languages Actions | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-taxonomy-actions,200,developers,True,True,1,True,False,False,7,0,Contentstack Management - Taxonomy Actions | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-management-users-actions,200,developers,True,True,1,False,False,False,7,2467,Contentstack Management - Users Actions | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/contentstack-trigger,200,developers,True,True,1,False,False,False,7,20801,Contentstack Trigger
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/coveo,200,developers,True,True,1,False,False,False,7,6952,Coveo | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/data-store,200,developers,True,True,1,False,False,False,7,12077,Data Store | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/gemini,200,developers,True,True,1,False,False,False,7,7450,Gemini | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/google-vertex,200,developers,True,True,1,False,False,False,7,12385,Google Vertex | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/launch,200,developers,True,True,1,False,False,False,7,5914,Launch Connector | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/launch-trigger,200,developers,True,True,1,False,False,False,7,4836,Launch Trigger
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/microsoft-teams,200,developers,True,True,1,False,False,False,7,3154,Microsoft Teams | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/notion,200,developers,True,True,1,False,False,False,7,7960,Notion | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/pause,200,developers,True,True,1,False,False,False,7,2207,Pause Connector | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/personalize,200,developers,True,True,1,False,False,False,7,7810,Personalize Connector | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/response,200,developers,True,True,1,False,False,False,7,1919,Response
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/scheduler-by-automation-hub,200,developers,True,True,1,False,False,False,7,7600,Scheduler by Automate | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/sub-automation-action,200,developers,True,True,1,False,False,False,7,5295,Sub Automation Action | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/sub-automation-trigger,200,developers,True,True,1,False,False,False,7,5214,Sub Automation Trigger | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/transform,200,developers,True,True,1,True,False,False,7,0,Transform | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/typesense-cloud,200,developers,True,True,1,False,False,False,7,5769,Typesense Cloud Connector | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-connectors/vercel,200,developers,True,True,1,False,False,False,7,2061,Vercel Connector | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides,200,developers,True,True,1,False,False,False,7,2082,Automate Guides | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/about-automation-hub,200,developers,True,True,1,False,False,False,7,2049,About Automate | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/add-new-entries-to-algolia-s-search-index,200,developers,True,True,1,False,False,False,7,4802,Add New Entries to Algolia’s Search Index
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/automating-asset-management-with-contentstack-automate,200,developers,True,True,1,False,False,False,7,12456,Automate Digital Asset Management with Contentstack&#x27;s Automate | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/automation-sharing,200,developers,True,True,1,False,False,False,7,5486,Automation Sharing | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/create-a-project,200,developers,True,True,1,False,False,False,7,1895,Create an Automate Project | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/create-an-algolia-object-using-entry-uid,200,developers,True,True,1,False,False,False,7,5077,Create an Algolia Object using Entry UID
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/delete-step,200,developers,True,True,1,False,False,False,7,1630,Delete Step
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/error-management-for-action-steps,200,developers,True,True,1,False,False,False,7,3886,Error Management for Action Steps | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/export-and-import-an-automation,200,developers,True,True,1,False,False,False,7,3058,Export and Import an Automation | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/how-conditional-paths-work,200,developers,True,True,1,False,False,False,7,3730,How Conditional Paths Work?
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/how-repeat-paths-work,200,developers,True,True,1,False,False,False,7,3934,How Repeat Paths Work?
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/limitations-of-automation-hub,200,developers,True,True,1,False,False,False,7,3199,Limitations of Automate | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/mark-a-project-as-favorite,200,developers,True,True,1,False,False,False,7,1980,Mark a Project as Favorite | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/throttle-execution,200,developers,True,True,1,False,False,False,7,3663,Throttle Execution | Contentstack
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/using-conditional-paths-to-customize-automations,200,developers,True,True,1,False,False,False,7,7689,Using Conditional Paths to Customize Automations
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/view-execution-log-of-automations,200,developers,True,True,1,False,False,False,7,6022,View Execution Log of Automations
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/what-is-a-conditional-path,200,developers,True,True,1,False,False,False,7,1918,What is a Conditional Path?
+3,https://www.contentstack.com/docs/developers/automation-hub-guides/what-is-a-repeat-path,200,developers,True,True,1,False,False,False,7,2523,What is a Repeat Path?
+3,https://www.contentstack.com/docs/developers/branches,200,developers,True,True,1,False,False,False,7,1728,Branches | Contentstack
+3,https://www.contentstack.com/docs/developers/branches/about-aliases,200,developers,True,True,1,False,False,False,7,2211,About Aliases | Contentstack
+3,https://www.contentstack.com/docs/developers/branches/about-branches,200,developers,True,True,1,False,False,False,7,3629,About Branches | Contentstack
+3,https://www.contentstack.com/docs/developers/branches/delete-a-branch,200,developers,True,True,1,False,False,False,7,2267,Delete a Branch | Contentstack
+3,https://www.contentstack.com/docs/developers/branches/edit-an-alias,200,developers,True,True,1,False,False,False,7,2132,Edit an Alias | Contentstack
+3,https://www.contentstack.com/docs/developers/branches/get-started-with-comparing-and-merging-branches,200,developers,True,True,1,False,False,False,7,11559,Get Started with Comparing and Merging Branches | Contentstack
+3,https://www.contentstack.com/docs/developers/branches/global-modules,200,developers,True,True,1,False,False,False,7,3588,Global Modules | Contentstack
+3,https://www.contentstack.com/docs/developers/branches/real-world-scenarios,200,developers,True,True,1,False,False,False,7,9155,Branches Real-world Scenarios | Contentstack
+3,https://www.contentstack.com/docs/developers/building-apps/project-structure-of-getting-started-with-building-your-sample-website,200,developers,True,True,1,False,False,False,7,3654,Project Structure of Getting Started With Building Your Sample Website | Contentstack
+3,https://www.contentstack.com/docs/developers/building-websites,200,developers,True,True,1,False,False,False,7,1434,Building Websites | Contentstack
+3,https://www.contentstack.com/docs/developers/bulk-delete-an-entry-from-different-locales,200,developers,True,True,1,False,False,False,7,3463,Bulk Delete an Entry from Different Locales
+3,https://www.contentstack.com/docs/developers/cdn-and-caching/cache-purging-scenarios,200,developers,True,True,1,False,False,False,7,7950,Cache Purging Scenarios
+3,https://www.contentstack.com/docs/developers/cdn-and-caching/front-end-cdn-cache-purging-best-practices,200,developers,True,True,1,False,False,False,7,4319,Cache Purging Best Practices
+3,https://www.contentstack.com/docs/developers/cdn-and-caching/set-up-a-content-delivery-network-for-contentstack-powered-websites,200,developers,True,True,1,False,False,False,7,5377,Set Up a Content Delivery Network for Contentstack-powered Websites | Contentstack
+3,https://www.contentstack.com/docs/developers/cdn-and-caching/what-is-cdn-and-how-it-works,200,developers,True,True,1,False,False,False,7,5978,What Is CDN and How It Works | Contentstack
+3,https://www.contentstack.com/docs/developers/cli,200,developers,True,True,1,False,False,False,7,2647,Command-line Interface (CLI)
+3,https://www.contentstack.com/docs/developers/cli/apps-cli-plugin,200,developers,True,True,1,True,False,False,7,0,Apps CLI Plugin | Contentstack
+3,https://www.contentstack.com/docs/developers/cli/audit-plugin,200,developers,True,True,1,True,False,False,7,0,Audit Plugin | Contentstack
+3,https://www.contentstack.com/docs/developers/cli/bulk-operations-in-cli,200,developers,True,True,1,True,False,False,7,0,Contentstack CLI Bulk | Contentstack
+3,https://www.contentstack.com/docs/developers/cli/bulk-publish-and-unpublish-content,200,developers,True,True,1,True,False,False,7,0,Bulk Publish and Unpublish Content | Contentstack Documentation
+3,https://www.contentstack.com/docs/developers/cli/cli-for-launch,200,developers,True,True,1,True,False,False,7,0,CLI for Launch | Contentstack
+3,https://www.contentstack.com/docs/developers/cli/compare-and-merge-branches-using-the-cli,200,developers,True,True,1,True,False,False,7,0,Compare and Merge Branches using the CLI | Contentstack
+3,https://www.contentstack.com/docs/developers/cli/create-custom-cli-plugins,200,developers,True,True,1,True,False,False,7,0,Create Custom CLI Plugins for Contentstack | Contentstack
+3,https://www.contentstack.com/docs/developers/content-migration,200,developers,True,True,1,False,False,False,7,1501,Content Migration | Contentstack
+3,https://www.contentstack.com/docs/developers/content-migration/aem-to-contentstack,200,developers,True,True,1,False,False,False,7,8416,AEM to Contentstack | Contentstack
+3,https://www.contentstack.com/docs/developers/content-migration/backend-api-reference,200,developers,True,True,1,False,False,False,7,2440,Backend API Reference | Contentstack
+3,https://www.contentstack.com/docs/developers/content-migration/cms-connector-api-contentful,200,developers,True,True,1,False,False,False,7,2081,CMS Connector API - Contentful | Contentstack
+3,https://www.contentstack.com/docs/developers/content-migration/cms-connector-api-sitecore,200,developers,True,True,1,False,False,False,7,2442,CMS Connector API - Sitecore | Contentstack
+3,https://www.contentstack.com/docs/developers/content-migration/cms-connector-api-wordpress,200,developers,True,True,1,False,False,False,7,2314,CMS Connector API - WordPress | Contentstack
+3,https://www.contentstack.com/docs/developers/content-migration/new-cms-connector-api-guide,200,developers,True,True,1,False,False,False,7,2276,New CMS Connector API Guide | Contentstack
+3,https://www.contentstack.com/docs/developers/content-migration/react-ui-implementation-guide,200,developers,True,True,1,False,False,False,7,1916,React UI Implementation Guide | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling,200,developers,True,True,1,False,False,False,7,1457,Content Modeling | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/about-content-modeling,200,developers,True,True,1,False,False,False,7,8516,About Content Modeling | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/about-us-page,200,developers,True,True,1,False,False,False,7,8158,Content Modeling About Us Page | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/blog-landing-page,200,developers,True,True,1,False,False,False,7,6088,Content Modeling Blog Landing Page | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/blog-listing-page,200,developers,True,True,1,False,False,False,7,5211,Content Modeling Blog Listing Page| Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/contact-us-page,200,developers,True,True,1,False,False,False,7,7620,Content Modeling Contact Us | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/content-type-change-management,200,developers,True,True,1,False,False,False,7,8732,Content Type Change Management | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/faqs,200,developers,True,True,1,False,False,False,7,5618,Content Modeling Frequently Asked Questions | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/product-listing-page,200,developers,True,True,1,False,False,False,7,5570,Content Modeling Product Listing Page | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/website-footer,200,developers,True,True,1,False,False,False,7,4128,Content Modeling Website Footer | Contentstack
+3,https://www.contentstack.com/docs/developers/content-modeling/website-homepage,200,developers,True,True,1,False,False,False,7,9567,Content Modeling Website Homepage | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-basics,200,developers,True,True,1,False,False,False,7,1291,Contentstack Basics | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-basics/how-to-start-using-contentstack,200,developers,True,True,1,False,False,False,7,6047,How to Start Using Contentstack | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-basics/understanding-contentstack,200,developers,True,True,1,False,False,False,7,4735,Understanding Contentstack | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-basics/what-you-need-to-get-started,200,developers,True,True,1,False,False,False,7,4242,What You Need to Get Started | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-regions,200,developers,True,True,1,False,False,False,7,1447,Contentstack Regions | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-regions/about-regions,200,developers,True,True,1,False,False,False,7,3617,About Regions | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-regions/api-endpoints,200,developers,True,True,1,False,False,False,7,6119,API Endpoints | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-regions/data-storage,200,developers,True,True,1,False,False,False,7,1431,Data Storage | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-regions/login-endpoints,200,developers,True,True,1,False,False,False,7,1380,Login Endpoints | Contentstack
+3,https://www.contentstack.com/docs/developers/contentstack-regions/selecting-region-in-contentstack-starter-apps,200,developers,True,True,1,True,False,False,7,0,Selecting Region in Contentstack Starter Apps
+3,https://www.contentstack.com/docs/developers/create-asset-sidebar-extensions/create-a-new-asset-sidebar-extension,200,developers,True,True,1,False,False,False,7,3365,Create a New Asset Sidebar Extension | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types,200,developers,True,True,1,False,False,False,7,3138,Create Content Types | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/about-field-visibility-rules,200,developers,True,True,1,False,False,False,7,4578,About Field Visibility Rules | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/about-fields,200,developers,True,True,1,False,False,False,7,2985,About Fields | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/about-labels,200,developers,True,True,1,False,False,False,7,2574,About Labels | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/add-a-field-visibility-rule,200,developers,True,True,1,False,False,False,7,8257,Add a Field Visibility Rule | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/add-choices,200,developers,True,True,1,False,False,False,7,3531,About Add Choices
+3,https://www.contentstack.com/docs/developers/create-content-types/allowed-file-types,200,developers,True,True,1,False,False,False,7,3280,Allowed file type(s) | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/boolean,200,developers,True,True,1,False,False,False,7,5462,Boolean | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/config-parameter-for-custom-fields-only,200,developers,True,True,1,False,False,False,7,4204,Config Parameter (for Custom Fields only) | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/content-type-versioning,200,developers,True,True,1,False,False,False,7,4164,Content Type Versioning | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/copy-a-content-type,200,developers,True,True,1,False,False,False,7,2615,Copy a Content Type
+3,https://www.contentstack.com/docs/developers/create-content-types/create-a-content-type,200,developers,True,True,1,False,False,False,7,4360,Create a Content Type | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/create-and-apply-labels,200,developers,True,True,1,False,False,False,7,2644,Create and Apply Labels | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/custom,200,developers,True,True,1,False,False,False,7,3693,Custom | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/date,200,developers,True,True,1,False,False,False,7,3614,Date | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/default-value,200,developers,True,True,1,False,False,False,7,3476,Default Value | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/delete-a-content-type,200,developers,True,True,1,False,False,False,7,2657,Delete a Content Type
+3,https://www.contentstack.com/docs/developers/create-content-types/display-name,200,developers,True,True,1,False,False,False,7,3493,Display Name | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/edit-a-content-type,200,developers,True,True,1,False,False,False,7,3476,Edit a Content Type | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/export-a-content-type,200,developers,True,True,1,False,False,False,7,2638,Export a Content Type | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/field-limitations,200,developers,True,True,1,False,False,False,7,3142,Field Limitations | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/file,200,developers,True,True,1,False,False,False,7,2976,File | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/global,200,developers,True,True,1,False,False,False,7,3990,Global Field | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/group,200,developers,True,True,1,False,False,False,7,6333,Group | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/help-text,200,developers,True,True,1,False,False,False,7,2974,Help Text | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/image-dimension-validation,200,developers,True,True,1,False,False,False,7,3790,About Image Dimension Validation
+3,https://www.contentstack.com/docs/developers/create-content-types/import-a-content-type,200,developers,True,True,1,False,False,False,7,2566,Import a Content Type | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/import-prebuilt-content-models,200,developers,True,True,1,False,False,False,7,3231,Import Prebuilt Content Models | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/instruction-value,200,developers,True,True,1,False,False,False,7,3218,Instruction Value | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/json-schema-for-creating-a-content-type,200,developers,True,True,1,True,False,False,7,0,How To Create JSON Schema for a Content Type | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/limitations-of-content-types,200,developers,True,True,1,False,False,False,7,2164,Limitations of Content Types | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/limitations-of-field-visibility-rules,200,developers,True,True,1,False,False,False,7,4455,Limitations of Field Visibility Rules | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/link,200,developers,True,True,1,False,False,False,7,2970,Link | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/manage-labels,200,developers,True,True,1,False,False,False,7,2298,Manage Labels | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/managing-non-localizable-fields,200,developers,True,True,1,False,False,False,7,11266,Managing Non-Localizable Fields | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/mandatory,200,developers,True,True,1,False,False,False,7,4418,Mandatory | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/mark-as-title,200,developers,True,True,1,False,False,False,7,5666,Mark as Group Title | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/markdown,200,developers,True,True,1,False,False,False,7,5381,About Markdown field
+3,https://www.contentstack.com/docs/developers/create-content-types/minimum-and-maximum-limit,200,developers,True,True,1,False,False,False,7,6140,Minimum and Maximum Limits | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/modular-blocks,200,developers,True,True,1,False,False,False,7,9652,Modular Blocks | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/multi-line-textbox,200,developers,True,True,1,False,False,False,7,2774,Multi Line Textbox | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/multiple,200,developers,True,True,1,False,False,False,7,4665,Multiple | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/non-localizable,200,developers,True,True,1,False,False,False,7,3962,Non-localizable | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/number,200,developers,True,True,1,False,False,False,7,2851,Number | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/operand-fields-and-supported-operators,200,developers,True,True,1,False,False,False,7,2666,Operand Fields and Supported Operators | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/placeholder-value,200,developers,True,True,1,False,False,False,7,2989,Placeholder Value | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/reference,200,developers,True,True,1,False,False,False,7,12443,Reference Content Types with Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/restricted-keywords-for-uids,200,developers,True,True,1,False,False,False,7,2886,Restricted Keywords for UIDs | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/scenarios-invalidating-the-field-visibility-rules,200,developers,True,True,1,False,False,False,7,4129,Scenarios That Invalidate Field Visibility Rules | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/scenarios-where-editing-a-content-type-is-unsafe,200,developers,True,True,1,False,False,False,7,3573,Scenarios Where Editing a Content Type Is Unsafe
+3,https://www.contentstack.com/docs/developers/create-content-types/select,200,developers,True,True,1,False,False,False,7,3765,About Select field
+3,https://www.contentstack.com/docs/developers/create-content-types/select-extension-app-for-custom-field-only,200,developers,True,True,1,False,False,False,7,3486,Select Extension/App
+3,https://www.contentstack.com/docs/developers/create-content-types/selection-type,200,developers,True,True,1,False,False,False,7,3421,About Selection Type
+3,https://www.contentstack.com/docs/developers/create-content-types/show-as-tab,200,developers,True,True,1,False,False,False,7,5525,Show as Tab | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/single-line-textbox,200,developers,True,True,1,False,False,False,7,2699,Single Line Textbox | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/single-vs-multiple-content-types,200,developers,True,True,1,False,False,False,7,3425,Single vs Multiple Content Types | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/switch-between-alphabetical-and-label-view,200,developers,True,True,1,False,False,False,7,2413,Switch Between Alphabetical and Label View | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/taxonomy,200,developers,True,True,1,False,False,False,7,2719,About Taxonomy Field | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/title,200,developers,True,True,1,False,False,False,7,2691,Title | Contentstack
+3,https://www.contentstack.com/docs/developers/create-content-types/understand-default-url-pattern,200,developers,True,True,1,False,False,False,7,3518,Understanding Default URL Pattern | Contentstack

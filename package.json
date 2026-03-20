@@ -5,11 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/fix-export-paths.mjs",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "contentstack:seed": "node scripts/contentstack-seed.mjs"
   },
   "dependencies": {
+    "@contentstack/delivery-sdk": "^5.1.2",
+    "@contentstack/management": "^1.29.0",
     "next": "^15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
